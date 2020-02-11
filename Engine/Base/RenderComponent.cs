@@ -8,5 +8,9 @@ namespace Engine.Base
 {
     public abstract class RenderComponent: Component
     {
+        public RenderComponent() : base() { }
+
+        public virtual void Draw (CameraComponent camera) { }
+
     }
 }
